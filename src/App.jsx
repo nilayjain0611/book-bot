@@ -9,6 +9,10 @@ function App() {
 
   async function greet() {
     // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
+    if (name.length === 0) {
+      setGreetMsg("Please enter a name.");
+      return;
+    }
     setGreetMsg(await invoke("greet", { name }));
   }
 
