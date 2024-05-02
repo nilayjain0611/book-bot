@@ -3,7 +3,8 @@
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
     "devPath": "http://localhost:1420",
-    "distDir": "../dist"
+    "distDir": "../dist",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "book-bot",
@@ -19,9 +20,9 @@
     },
     "windows": [
       {
-        "title": "book-bot",
-        "width": 800,
-        "height": 600
+        "title": "BookBot",
+        "width": 1024,
+        "height": 960
       }
     ],
     "security": {
