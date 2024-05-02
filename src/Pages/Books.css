@@ -1,0 +1,27 @@
+.body{
+    background-color: #f2f2f2;
+}
+.books-container {
+    max-height: 800px; /* Limit height to enable vertical scrolling */
+    overflow: auto; /* Enable both horizontal and vertical scrolling */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold; /* Make table headers bold */
+  }
+  
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+  }
+  
